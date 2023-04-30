@@ -47,9 +47,7 @@ public class TicTacToeGame {
         board[index] = letter;
     }
 
-    public boolean isCellEmpty(int index) {
-        return board[index] == ' ';
-    }
+
 
     public void setCell(int index, char symbol) {
         board[index] = symbol;
